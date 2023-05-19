@@ -143,3 +143,37 @@ img {
     line-height: 26px;
     margin-bottom: 100px;
 }
+
+.numbers {
+    background-color: #34547A;
+    margin-bottom: 100px;
+}
+
+.numbers-flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    align-items: center;
+}
+
+.numbers-flex-item {
+    display: flex;
+}
+
+.numbers-text-h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #EEEFF1;
+}
+
+.numbers-text-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #EEEFF1;
+}
+
+.numbers-img {
+    padding-right: 20px;
+}
