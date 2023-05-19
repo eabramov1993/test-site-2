@@ -1,0 +1,145 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #EEEFF1;
+    margin-bottom: 119px;
+}
+
+.header-item-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+    margin-bottom: 150px;
+}
+
+.header-item-nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header-item-nav li {
+    padding-right: 46px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+
+}
+
+.header-item-nav li:last-child {
+    padding-right: 0;
+}
+
+.header-item-nav a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.header-item-nav a:hover {
+    color: #34547A;
+}
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 146px;
+}
+
+.header-content-image {
+    margin-right: 131px;
+}
+
+.text-h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    padding-bottom: 60px;
+}
+
+.text-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    max-width: 540px;
+    width: 100%;
+    padding-bottom: 60px;
+
+}
+
+.header-content-btn {
+    border: none;
+    padding: 25px 41px;
+    background-color: #34547A;
+    color: #EEEFF1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.about {
+    text-align: center;
+}
+
+.about-h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 50px;
+}
+
+.about-p {
+    max-width: 540px;
+    margin: 0 auto;
+    color: #727272;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 100px;
+}
