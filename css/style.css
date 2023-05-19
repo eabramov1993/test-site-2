@@ -177,3 +177,84 @@ img {
 .numbers-img {
     padding-right: 20px;
 }
+
+
+
+
+.skills-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.left-text-h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 50px;
+}
+
+
+.progres-bar {
+    display: flex;
+    width: 445px;
+    height: 4px;
+    background-color: #C4C4C4;
+    margin-bottom: 30px;
+}
+
+.progres-bar-completed {
+    background-color: #34547A;
+}
+
+.progres-bar-text-p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.skills-item-right {
+    width: 450px;
+}
+
+.work {
+    background-color: #EEEFF1;
+    text-align: center;
+}
+
+.work-title-h2 {
+    padding-top: 100px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 50px;
+}
+
+.work-title-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto 57px;
+}
+
+.work-video-flex {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-video {
+    width: 100%;
+    max-height: 600px;
+    padding-bottom: 50px;
+    object-fit: cover;
+}
