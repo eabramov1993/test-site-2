@@ -60,7 +60,6 @@ img {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
-
 }
 
 .header-item-nav li:last-child {
@@ -158,6 +157,7 @@ img {
 
 .numbers-flex-item {
     display: flex;
+    padding-bottom: 10px;
 }
 
 .numbers-text-h3 {
@@ -257,4 +257,76 @@ img {
     max-height: 600px;
     padding-bottom: 50px;
     object-fit: cover;
+}
+
+
+
+@media screen and (max-width:1280px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .progres-bar {
+        max-width: 445px;
+        width: 100%;
+
+    }
+
+    .numbers-flex {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .numbers-flex-item {
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .header-item-nav ul {
+        display: block;
+
+    }
+
+    .header-item-flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .header-item-nav li {
+        padding: 0;
+        text-align: center;
+    }
+
+    .header-item-icon {
+        margin: 0;
+    }
+
+    .text-h2 {
+        font-weight: 500;
+        font-size: 29px;
+        line-height: 35px;
+        color: #000000;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .text-p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 60px;
+        }
+        .header-content-image {
+            margin-right:0;
+        }
 }
