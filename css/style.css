@@ -289,7 +289,6 @@ img {
     }
 
     .header-item-flex {
-        flex-direction: column;
         align-items: center;
         justify-content: center;
 
@@ -302,6 +301,7 @@ img {
 
     .header-item-icon {
         margin: 0;
+
     }
 
     .text-h2 {
@@ -325,8 +325,15 @@ img {
         text-align: center;
         width: 100%;
         padding-bottom: 60px;
-        }
-        .header-content-image {
-            margin-right:0;
-        }
+    }
+
+    .header-content-image {
+        margin-right: 0;
+        padding-bottom: 35px;
+    }
+
+    .skills-item {
+        flex-direction: column;
+    }
+
 }
