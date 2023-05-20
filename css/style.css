@@ -232,6 +232,7 @@ img {
     max-width: 450px;
 }
 
+/* ПРОЦЕСС РАБОТЫ */
 .work {
     background-color: #EEEFF1;
     text-align: center;
@@ -269,6 +270,104 @@ img {
     padding-bottom: 50px;
     object-fit: cover;
 }
+
+/* ПРОЕКТЫ */
+
+.projects { 
+    padding-top: 20px;
+}
+
+.projects-item {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    justify-items: center;
+    margin-bottom: 72px;
+}
+
+.projects-item-img {
+    width: 480px;
+}
+
+
+.card {
+    width: 480px;
+    width: 100%;
+}
+
+.card-view {
+    display: block;
+    position: relative;
+}
+
+.card-view::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 0.4s ease;
+    filter: invert(100%);
+}
+
+.card-view::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(52, 84, 122, 80%);
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+
+.card-view:hover:before,
+.card-view:hover:after {
+    opacity: 0.8;
+}
+
+/* КЛИЕНТЫ */
+.clients-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
