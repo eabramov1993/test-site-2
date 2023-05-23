@@ -437,6 +437,28 @@ img {
     letter-spacing: 0.15em;
 }
 
+.footer {
+    background-color: #34547A;
+    padding-top: 50px;
+}
+
+.footer-h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-text-p {
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
 
 
 
