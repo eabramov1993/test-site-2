@@ -416,6 +416,7 @@ img {
 .form-name-input-2,
 .form-text-input {
     outline: none;
+    border: none;
 }
 
 
@@ -434,7 +435,7 @@ img {
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.15em;
-    }
+}
 
 
 
