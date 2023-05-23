@@ -509,7 +509,7 @@ img {
     }
 
     .header-item-flex {
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
 
     }
