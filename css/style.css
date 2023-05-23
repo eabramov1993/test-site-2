@@ -279,7 +279,7 @@ img {
 
 .projects-item {
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     margin-bottom: 72px;
 }
@@ -341,37 +341,7 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:1280px) {
+@media only screen and (max-width:1280px) {
     .container {
         padding: 0 15px;
     }
@@ -391,7 +361,7 @@ img {
     }
 }
 
-@media screen and (max-width:790px) {
+@media only screen and (max-width:790px) {
     .header-item-nav ul {
         flex-direction: column;
     }
@@ -455,5 +425,10 @@ img {
 
     .left-text-h2 {
         text-align: center;
+    }
+    .projects-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
     }
 }
