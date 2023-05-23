@@ -273,7 +273,7 @@ img {
 
 /* ПРОЕКТЫ */
 
-.projects { 
+.projects {
     padding-top: 20px;
 }
 
@@ -337,7 +337,126 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+    margin-bottom: 100px;
 }
+
+
+
+.form {
+    background-color: #EEEFF1;
+    padding-top: 50px;
+}
+
+.form-h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 50px;
+}
+
+.form-text-p {
+    color: #727272;
+    max-width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 auto;
+    padding-bottom: 65px;
+    text-align: center;
+}
+
+/* ФОРМА */
+
+.form {
+    padding-bottom: 100px;
+}
+
+.form-name-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form-name-input-1 {
+    width: 255px;
+    height: 55px;
+    margin-right: 30px;
+    padding-left: 20px;
+
+}
+
+.form-name-input-2 {
+    width: 255px;
+    height: 55px;
+    padding-left: 20px;
+}
+
+.form-text-input {
+    width: 540px;
+    height: 175px;
+    padding-top: 17px;
+    padding-left: 20px;
+    transition: .1s;
+    resize: none;
+    margin-bottom: 50px;
+}
+
+
+
+.form-text-input-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-name-input-1,
+.form-name-input-2,
+.form-text-input {
+    outline: none;
+}
+
+
+.form-text-input:focus,
+.form-name-input-1:focus,
+.form-name-input-2:focus {
+    border: #34547A solid 2px;
+}
+
+.form-button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -426,9 +545,25 @@ img {
     .left-text-h2 {
         text-align: center;
     }
+
     .projects-item {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-       
+
+    }
+
+    .form-name-flex {
+        display: block;
+    }
+
+    .form-name-input-1,
+    .form-name-input-2,
+    .form-text-input {
+        width: 100%;
+    }
+
+    .form-name-input-1 {
+        margin: 0 0 10px;
+
     }
 }
